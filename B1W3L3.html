@@ -14,22 +14,32 @@
         //1 Maak een JS applicatie die de tafel van 6 uitrekent
             for(i = 1; i < 11; i++ ){ //ik loop van i (1) naar 11 omdat ik zeg dat het kleine dan 11 moet zijn is het dus 10. 
                 var tableOf6 = i*6; //ik zeg dat hij i (1-10) bij ieder nummer * 6 moet doen waardoor dus je tafel van 6 krijgt.
-                document.write(tableOf6 + "<br>" + "<br>") //Hier geef ik aan dat hij het antwoord moet schrijven in het document en een br line break om het overzichtelijk te houden
+                var tableOf3 = i*3;
+                document.write(tableOf6 + " " ) //Hier print ik de resultaatnen van de tafel
+                document.write(tableOf3 + "<br>") //Hier print ik de resultaatnen van de tafel
             } //Sluiten van de loop
 
 
-        //2 Maak een JS applicatie die de tafel van 3 uitrekent
-            for(i = 1; i < 11; i++ ){ //ik loop van i 1 tot 11 (eigenlijk 10 omdat het kleiner dan 11 is dus komt het )
-                var tableOf3 = i*3; //I = 1-10 * 3
-                document.write(tableOf3 + "<br>") //Printen van tafel + br om het overzichtelijk te houden.
-                
-            } //Sluiten van de loop
 
-       //3 Vraag: Hoe kun je er op een handige manier voor zorgen dat je gemakelijk een andere tafel unt uitrekenen, zonder dat je al te veel wijzingen in je code moet doen.
+       //Vraag: Hoe kun je er op een handige manier voor zorgen dat je gemakelijk een andere tafel unt uitrekenen, zonder dat je al te veel wijzingen in je code moet doen.
+       
        //Antwoord: Je zou een input value / prompt kunnen vragen voor beide en deze variables in de loopg gebruiken zo zou je dynamisch iedere tafel kunnen berekenen.
        //Ook zou je een functie kunnen maken die een parameter mee krijgt voor de berekening te doen.
 
+
+    //Berekeingen maken
+    var num = 12;
+    var num1 = 6;
+    num = num1 + num;
+    document.write( "<br>" + "12+6 =" + num + " ");
+       num = num * 10; 
+    document.write("18*10 =" + num +" ")
+       num = num / 5;
+    document.write("180/5 =" + num + " ")
+       num = num - 12;
+    document.write("36-12 =" + num)
        
+
     </script>
 </body>
 </html>

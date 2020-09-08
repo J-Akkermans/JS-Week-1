@@ -7,9 +7,12 @@
 </head>
 <body>
     <script>
-        const askFirstName = "Wat is je voornaam?"
-        const askSurname =   "Wat is je achternaam?"
-        const askAge =       "Wat is je leeftijd?"
+        const askFirstName = prompt("Wat is je voornaam?")
+        const askSurname =   prompt("Wat is je achternaam?")
+        const askAge =       prompt("Wat is je leeftijd?")
+
+        var answer = askFirstName + " " + askSurname + " " + askAge
+        document.write(answer)
     </script>
 </body>
 </html>

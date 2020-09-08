@@ -6,21 +6,24 @@
     <title>B1W3L3</title>
 </head>
 <body>
-    <div>
-        <button onclick="calcTable6()">Klik hier voor de tafel van 6</button>
-    </div>
     <script> 
         
         //J Akkermans 
         //Software developer @Da Vinci
         
         //1 Maak een JS applicatie die de tafel van 6 uitrekent
-        function calcTable6(){ //functie maken
             for(i = 1; i < 11; i++ ){ //ik loop van i (1) naar 11 omdat ik zeg dat het kleine dan 11 moet zijn is het dus 10. 
                 var tableOf6 = i*6; //ik zeg dat hij i (1-10) bij ieder nummer * 6 moet doen waardoor dus je tafel van 6 krijgt.
-                document.write(tableOf6 + "<br>") //Hier geef ik aan dat hij het antwoord moet schrijven in het document en een br line break om het overzichtelijk te houden
+                document.write(tableOf6 + "<br>" + "<br>") //Hier geef ik aan dat hij het antwoord moet schrijven in het document en een br line break om het overzichtelijk te houden
             } //Sluiten van de loop
-        } //Sluiten van de functie
+
+
+        //2 Maak een JS applicatie die de tafel van 3 uitrekent
+            for(i = 1; i < 11; i++ ){ //ik loop van i 1 tot 11 (eigenlijk 10 omdat het kleiner dan 11 is dus komt het )
+                var tableOf3 = i*3; //I = 1-10 * 3
+                document.write(tableOf3 + "<br>") //Printen van tafel + br om het overzichtelijk te houden.
+                
+            } //Sluiten van de loop
 
 
     </script>
